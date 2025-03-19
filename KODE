@@ -1,0 +1,31 @@
+📂 Dataset-Pinjaman-Nasabah/
+│
+├── 📁 data/                # Folder untuk menyimpan dataset
+│   ├── raw/                # Dataset mentah yang belum diproses
+│   ├── processed/          # Dataset yang sudah melalui proses pembersihan atau transformasi
+│   └── external/           # Dataset dari sumber eksternal (jika ada)
+│
+├── 📁 notebooks/           # Folder untuk notebook Jupyter (analisis dan eksplorasi data)
+│   └── EDA.ipynb           # Notebook untuk eksplorasi data awal (Exploratory Data Analysis)
+│
+├── 📁 src/                 # Folder untuk kode utama proyek
+│   ├── __init__.py
+│   ├── data_preprocessing.py    # Script untuk proses pembersihan dan transformasi data
+│   ├── model_training.py        # Script untuk pelatihan model Machine Learning
+│   ├── model_evaluation.py      # Script untuk evaluasi performa model
+│   └── utils.py                 # Kumpulan fungsi pendukung
+│
+├── 📁 models/              # Folder untuk menyimpan model yang sudah dilatih
+│   └── model.pkl           # Contoh model yang sudah disimpan
+│
+├── 📁 reports/             # Folder untuk menyimpan laporan dan hasil analisis
+│   └── README.md           # Dokumentasi tentang hasil analisis
+│
+├── 📁 tests/               # Folder untuk menyimpan unit test atau uji coba
+│   └── test_data_preprocessing.py
+│
+├── .gitignore              # File konfigurasi git untuk mengabaikan file tertentu
+├── README.md               # Deskripsi lengkap tentang project
+├── requirements.txt        # Daftar library Python yang diperlukan (misalnya: pandas, sklearn, numpy, dll.)
+├── setup.py                # File setup jika ingin membuat proyek ini menjadi package Python
+└── LICENSE                 # Lisensi untuk proyek ini (misalnya MIT License)
