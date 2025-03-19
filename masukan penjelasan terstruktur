@@ -1,0 +1,11 @@
+Penjelasan Struktur
+data/: Tempat menyimpan kumpulan data. Dibagi menjadi raw/, processed/, dan external/untuk keteraturan.
+notebooks/: menyimpan file Jupyter Notebook untuk analisis awal atau eksplorasi data.
+src/: Folder untuk skrip utama yang mencakup preprocessing data, model pelatihan, evaluasi, dan utilitas.
+models/: Folder tempat menyimpan model yang sudah dibor dalam format tertentu (misalnya .pklatau .h5).
+reports/: menyimpan hasil analisis dalam bentuk dokumentasi atau laporan.
+tests/: Berisi unit test untuk memastikan kode berjalan dengan benar.
+README.md: Penjelasan lengkap mengenai proyek, cara penggunaan, dan dokumentasi lainnya.
+requirements.txt: Daftar perpustakaan Python yang diperlukan untuk menjalankan proyek ini.
+setup.py: Jika ingin membuat paket Python dari proyek ini.
+LICENSE: Lisensi yang mengatur penggunaan dan distribusi proyek ini.
